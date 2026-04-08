@@ -359,24 +359,26 @@ export class FlowerRingSystem {
 
         // 1) Load 1 gambar dulu agar ring & sprite tercipta
         textureLoader.load(
-            'image/image01.jpg',
+            'image/Wana2.jpeg',
             (texture) => {
                 this.processAndCreateFlowers(texture);
 
                 // 2) Setelah sprite ada, preload banyak gambar lalu randomize material
                 this.preloadTextures([
-                    'image/image01.jpg',
-                    'image/image03.jpg',
-                    'image/image04.jpg',
-                    'image/image05.jpg',
-                    'image/image06.jpg',
-                    'image/image07.jpg',
-                    'image/img13.jpg',
-                    'image/img14.jpg',
-                    'image/img15.jpg',
-                    'image/img16.jpg',
-                    'image/img17.jpg',
-                    'image/img18.jpg'
+                    'image/Wana2.jpeg',
+                    'image/Wana3.jpeg',
+                    'image/Wana4.jpeg',
+                    'image/Wana5.jpeg',
+                    'image/Wana6.jpeg',
+                    'image/Wana7.jpeg',
+                    'image/Wana8.jpeg',
+                    'image/Wana9.jpeg',
+                    'image/Wana10.jpeg',
+                    'image/Wana11.jpeg',
+                    'image/Wana12.jpeg',
+                    'image/Wana13.jpeg',
+                    'image/Wana14.jpeg',
+                    'image/Wana15.jpeg'
                     // tambahkan path lain di sini, pastikan file-nya ada
                 ]);
             },
