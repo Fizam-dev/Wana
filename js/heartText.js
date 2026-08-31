@@ -11,7 +11,7 @@ export class HeartText {
 
         // Configuration options
         this.config = {
-            text: 'I Love YOUU,Wana',
+            text: 'I Love YOUU,Nasuha',
             size: 20,
             height: 2,
             curveSegments: 12,

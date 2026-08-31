@@ -359,27 +359,44 @@ export class FlowerRingSystem {
 
         // 1) Load 1 gambar dulu agar ring & sprite tercipta
         textureLoader.load(
-            'image/Wana2.jpeg',
+            'image/Nasuha1.jpeg',
             (texture) => {
                 this.processAndCreateFlowers(texture);
 
                 // 2) Setelah sprite ada, preload banyak gambar lalu randomize material
                 this.preloadTextures([
-                    'image/Wana2.jpeg',
-                    'image/Wana3.jpeg',
-                    'image/Wana4.jpeg',
-                    'image/Wana5.jpeg',
-                    'image/Wana6.jpeg',
-                    'image/Wana7.jpeg',
-                    'image/Wana8.jpeg',
-                    'image/Wana9.jpeg',
-                    'image/Wana10.jpeg',
-                    'image/Wana11.jpeg',
-                    'image/Wana12.jpeg',
-                    'image/Wana13.jpeg',
-                    'image/Wana14.jpeg',
-                    'image/Wana15.jpeg'
-                    // tambahkan path lain di sini, pastikan file-nya ada
+                    'image/Nasuha1.jpeg',
+                    'image/Nasuha2.jpeg',
+                    'image/Nasuha3.jpeg',
+                    'image/Nasuha4.jpeg',
+                    'image/Nasuha5.jpeg',
+                    'image/Nasuha6.jpeg',
+                    'image/Nasuha7.jpeg',
+                    'image/Nasuha8.jpeg',
+                    'image/Nasuha9.jpeg',
+                    'image/Nasuha10.jpeg',
+                    'image/Nasuha11.jpeg',
+                    'image/Nasuha12.jpeg',
+                    'image/Nasuha13.jpeg',
+                    'image/Nasuha14.jpeg',
+                    'image/Nasuha15.jpeg',
+                    'image/Nasuha16.jpeg',
+                    'image/Nasuha17.jpeg',
+                    'image/Nasuha18.jpeg',
+                    'image/Nasuha19.jpeg',
+                    'image/Nasuha20.jpeg',
+                    'image/Nasuha21.jpeg',
+                    'image/Nasuha22.jpeg',
+                    'image/Nasuha23.jpeg',
+                    'image/Nasuha24.jpeg',
+                    'image/Nasuha25.jpeg',
+                    'image/Nasuha26.jpeg',
+                    'image/Nasuha27.jpeg',
+                    'image/Nasuha28.jpeg',
+                    'image/Nasuha29.jpeg',
+                    'image/Nasuha30.jpeg',
+                    'image/Nasuha31.jpeg',
+                    'image/Nasuha32.jpeg'
                 ]);
             },
             undefined,
