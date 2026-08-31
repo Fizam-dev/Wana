@@ -570,7 +570,7 @@ export class FlowerRingSystem {
 
             // Giảm số lượng flowers trên iOS để tránh lag
             const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-            const numFlowers = isIOS ? 400 : 800; // Giảm 50% trên iOS
+            const numFlowers = isIOS ? 100 : 200; // Dikurangkan untuk elak lag
 
             const innerRadius = 130;
             const outerRadius = 530;
